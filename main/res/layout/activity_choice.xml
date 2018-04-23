@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreen"
+    android:gravity="center"
+    tools:context="fr.csk.monregimeexpress.activities.LaunchActivity">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_launch_load"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/task1_48_12_red"
+        android:text="@string/choice_btn_menu"
+        style="@style/ChoiceButton"
+        android:onClick="RedirectAction"
+        android:tag="menu"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/idcard14_48_12_green"
+        android:text="@string/choice_btn_health"
+        style="@style/ChoiceButton"
+        android:onClick="RedirectAction"
+        android:tag="health"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ruler32_48_12_yellow"
+        android:text="@string/choice_btn_measure"
+        style="@style/ChoiceButton"
+        android:onClick="RedirectAction"
+        android:tag="measure"/>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/ChoiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logout13_48_12_purple"
+        android:onClick="RedirectAction"
+        android:tag="sport"
+        android:text="@string/choice_btn_sport" />
+</LinearLayout>

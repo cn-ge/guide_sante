@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreen"
+    tools:context="fr.csk.monregimeexpress.activities.SportDayActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/sportday"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorLaunchDarken"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="15sp"
+                android:text="2. Choisir un jour"/>
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_firstday"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FirstDay"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/calendar5_48_12_bluelight"
+        android:onClick="ShowSeries"
+        style="@style/DayButton"
+        android:tag="1"/>
+
+    <Button
+        android:id="@+id/btn_secondday"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ThirdDay"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/calendar5_48_12_bluemedium"
+        android:onClick="ShowSeries"
+        style="@style/DayButton"
+        android:tag="2"/>
+
+    <Button
+        android:id="@+id/btn_thirdday"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FifthDay"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/calendar5_48_12_bluedark"
+        android:onClick="ShowSeries"
+        style="@style/DayButton"
+        android:tag="3"/>
+
+    </LinearLayout>
+</LinearLayout>

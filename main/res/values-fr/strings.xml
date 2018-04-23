@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Name -->
+    <string name="app_name">REGIME EXPRESS</string>
+
+    <!-- Choice view -->
+    <string name="choice_btn_measure">Suivi de poids</string>
+    <string name="choice_btn_menu">Menus</string>
+    <string name="choice_btn_health">Informations</string>
+    <string name="choice_btn_sport">Sport</string>
+
+    <string name="FirstDay">Lundi</string>
+    <string name="SecondDay">Mardi</string>
+    <string name="ThirdDay">Mercredi</string>
+    <string name="FourthDay">Jeudi</string>
+    <string name="FifthDay">Vendredi</string>
+
+    <!-- Sport view -->
+    <string name="Week">Semaine</string>
+    <string name="Serie">Serie</string>
+    <string name="Serial_number">No</string>
+
+    <string name="FirstMeal">Petit Déjeuner</string>
+    <string name="SecondMeal">Déjeuner</string>
+    <string name="ThirdMeal">Diner</string>
+
+</resources>
